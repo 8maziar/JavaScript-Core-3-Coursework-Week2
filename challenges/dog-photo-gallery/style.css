@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+}
+
+.main-div {
+  margin-top: 40px;
+  width: 100%;
+}
+
+.btn-container {
+  margin: 0 auto 20px;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+button {
+  background-color: rgb(220, 116, 133);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  color: white;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+img {
+  width: 260px;
+  height: 260px;
+  object-fit: cover;
+}
+
+ul {
+  gap: 10px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 0 auto;
+  justify-items: center;
+  justify-content: center;
+}
+
+li {
+  list-style: none;
+}
